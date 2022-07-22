@@ -1,0 +1,14 @@
+program ProjectMobile;
+
+uses
+  System.StartUpCopy,
+  FMX.Forms,
+  UnitSplash in 'UnitSplash.pas' {FormSplash};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.CreateForm(TFormSplash, FormSplash);
+  Application.Run;
+end.
